@@ -14,4 +14,8 @@ This project is a simple CLI Task manager that allows the user to create, view, 
 * Welcomes user to the Task manager
 * Pulls up a "Menu"
 * asks user what option they would like to do
-* Adds tasks
+* Adds tasks to a list
+* Lets user view tasks they have created
+* Lets user Complete tasks
+* Lets user Delete a task
+* Exits program if user selects
