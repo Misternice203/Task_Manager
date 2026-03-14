@@ -43,7 +43,7 @@ while True:
             print("You selected to View Your tasks.:")
             for i, task in enumerate(tasks, start=1):
                 status = "Completed" if task["Completed"] else "Not Completed"
-                # f string so that it can print the task details in a formatted way.
+                # f string so that i can recall variables in a string
                 print(f"{i}. {task['Name']} {task['Due']} {task['Priority']} {status}")
     elif choice == 3:
         if not tasks:
